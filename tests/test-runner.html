@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SXG Core Tests</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #c7d2fe;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Smart XPath Generator — Unit Tests</h1>
+    <div id="test-output">Running tests...</div>
+
+    <!-- Load core modules in dependency order -->
+    <script src="../core/dynamic-detector.js"></script>
+    <script src="../core/xpath-validator.js"></script>
+    <script src="../core/stability-scorer.js"></script>
+    <script src="../core/xpath-generator.js"></script>
+
+    <!-- Load tests -->
+    <script src="core-tests.js"></script>
+    <script>
+        window.TestRunner.runAll();
+    </script>
+</body>
+
+</html>
