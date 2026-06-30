@@ -29,7 +29,7 @@ This extension is not yet published to the Chrome Web Store — install it from 
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/<your-username>/smart-xpath-generator.git
+   git clone https://github.com/parthsathwara22/xpath-generator-extension.git
    ```
 2. Open Chrome and go to `chrome://extensions`.
 3. Enable **Developer mode** (top-right toggle).
@@ -47,7 +47,7 @@ This extension is not yet published to the Chrome Web Store — install it from 
    - **Fallback** (yellow badge) — a third option, useful if the page structure changes
    - A plain-language **reasoning** summary explaining why each was chosen
 4. Click **📋 Copy** on any result to copy that XPath to your clipboard.
-5. Press **`Esc`** to close the results panel, or press it again (or `Alt+Shift+X`) to exit selector mode entirely.
+5. Press **`Esc`** to close the results panel.
 
 ---
 
@@ -166,7 +166,6 @@ The test suite is dependency-free and runs directly in the browser:
 ## Contributing
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/my-feature`)
-3. Make your changes (and add/update tests in `tests/core-tests.js` where applicable)
-4. Open `tests/test-runner.html` to confirm everything still passes
-5. Commit, push, and open a Pull Request
+2. Make your changes (and add/update tests in `tests/core-tests.js` where applicable)
+3. Open `tests/test-runner.html` to confirm everything still passes
+4. Commit, push, and open a Pull Request
